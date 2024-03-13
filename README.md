@@ -1,2 +1,2 @@
 # teste-RP-2024
-Teste realizado para uma vaga de estágio
+Testes realizados para aplicação da vaga de estágio

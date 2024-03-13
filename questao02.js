@@ -4,19 +4,19 @@ const verifyFibonacci = (n) => {
   let a = 0;
   let b = 1;
 
-  if (n === 0) return console.log(`${n} pertence a sequência de Fibonacci`);
+  if (n === 0) return `${n} pertence a sequência de Fibonacci`;
 
   while (b <= n) {
-    if (b === n) return console.log(`${n} pertence a sequência de Fibonacci`);
+    if (b === n) return `${n} pertence a sequência de Fibonacci`;
     let sum = a + b;
     a = b;
     b = sum;
   }
-  console.log(`${n} não pertence a sequência de Fibonacci`);
+  return `${n} não pertence a sequência de Fibonacci`;
 };
 
-// verifyFibonacci(0);
-// verifyFibonacci(1);
-// verifyFibonacci(4);
-// verifyFibonacci(5);
-// verifyFibonacci(7);
+// console.log(verifyFibonacci(0));
+// console.log(verifyFibonacci(1));
+// console.log(verifyFibonacci(4));
+// console.log(verifyFibonacci(5));
+// console.log(verifyFibonacci(7));
